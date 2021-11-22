@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    position: relative;
+    margin-top: 100px;
+    width: 328px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+.label{
+    padding: 22px 8px;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.loginform{
+    padding: 30px 2px;
+}
+
+.loginform .inp{
+font-size: 18px;
+margin: 5px;
+}
+
+.logiform input{
+    height: 35px;
+    width: 20px;
+    padding: 0 5px;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+.loginform button{
+    margin: 45px 30px;
+    height: 30px;
+    width: 118px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    background-color: bisque;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.loginform button:hover{
+background-color: burlywood;
+}
+
+.loginform #emailerror,
+.loginform #passerror,
+.loginform #passerror2{
+    display: none;
+ width: 200px;
+ font-size: 15px;
+ color: red;
+ text-align: center;
+}
